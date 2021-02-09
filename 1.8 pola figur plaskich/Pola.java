@@ -86,7 +86,7 @@ public class Pola{
     private static String prostokatPokaz(int ts_bok, int ts_bok2){
         String ts_prostokat = "";
         for(int i=0;i<ts_bok;i++){
-            for(int j=0;j<ts_bok;j++){
+            for(int j=0;j<ts_bok2;j++){
                 ts_prostokat += "*";
             }
             ts_prostokat += "\n";
