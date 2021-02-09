@@ -33,7 +33,7 @@ public class Pola{
                 System.out.println("Pole figury wynosi: "+(bok*bok2));
                 System.out.println("Obwod wynosi: "+((bok*2)+(bok2*2)));
             }else{
-                System.out.println("Nie ma takiej figury.");
+                System.out.println("Nie ma takiej figury, podaj prawidłową.");
                 System.out.println(pole);
             }
         }
