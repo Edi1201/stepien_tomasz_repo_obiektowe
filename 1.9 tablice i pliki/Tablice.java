@@ -10,7 +10,7 @@ class Tablice{
             System.out.println(grades[i]);
         }
         String students[] = new String[10];
-
+        
         File f = new File("uczniowie.txt");
         try{
             Scanner sc = new Scanner(f);
