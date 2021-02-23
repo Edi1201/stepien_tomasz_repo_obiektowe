@@ -7,22 +7,25 @@ class Tablice{
         int grades[] = new int[10];
         for (int i=0;i<grades.length;i++){
             grades[i] = r.nextInt(6)+1;
-            System.out.println(grades[i]);
         }
         String students[] = new String[10];
-        
         File f = new File("uczniowie.txt");
         try{
             Scanner sc = new Scanner(f);
+            int i=0;
             while(sc.hasNext()){
-                int i=0;
-
-                students[i] = sc.nextLine()+"\n";
-                System.out.println(students[i]);
+                students[i] = sc.nextLine();
                 i++;
+            }
+            String studentsGrades[] = new String[10];
+            for (i=0;i<studentsGrades.length;i++){
+                studentsGrades[i] = students[i]+" "+grades[i];
+                System.out.println(studentsGrades[i]);
             }
         }catch(FileNotFoundException ex) {
             System.out.println(ex.toString());
         }
+        
+        
     }  
 }
