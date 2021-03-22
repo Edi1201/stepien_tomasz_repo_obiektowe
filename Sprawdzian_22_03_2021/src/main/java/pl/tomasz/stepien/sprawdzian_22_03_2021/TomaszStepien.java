@@ -222,7 +222,7 @@ public class TomaszStepien extends javax.swing.JFrame {
             String ts_initials = jTFczlon.getText();
             String ts_numbers = jTFcyfry.getText();
             if(ts_initials.isEmpty()){
-                System.out.println("Pusty string inicijaly");
+                System.out.println("Pusty string czlon");
             }else if(ts_numbers.isEmpty()){
                 System.out.println("Pusty string number");
             }else{
