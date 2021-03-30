@@ -5,10 +5,10 @@ class Kola {
     public Kola(int promien_kola){
 		this.promien_kola = promien_kola;
     }
-    public String pole_kola(){
-        return ""+liczba_pi*(promien_kola*promien_kola);
+    public float Pole_Kola(){
+        return liczba_pi*(promien_kola*promien_kola);
     }
-    public String obwod_kola(){
-        return ""+2*liczba_pi*promien_kola;
+    public float Obwod_Kola(){
+        return 2*liczba_pi*promien_kola;
 	}
 }

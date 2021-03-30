@@ -1,5 +1,5 @@
 class Logowanie{
-	private String login = "dupa";
+	private String login = "admin";
 	private String haslo = "123";
 		
 	//KONSTRUKTOR
