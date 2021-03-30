@@ -6,10 +6,10 @@ class Prostokat{
 		this.bok = bok;
         this.bok2 = bok2;
     }
-    public int Pole(){
+    public int pole(){
         return bok*bok2;
     }
-    public int Obwod(){
+    public int obwod(){
         return (bok*2)+(bok2*2);
     }
     

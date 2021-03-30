@@ -4,10 +4,10 @@ class Kwadrat{
     public Kwadrat(int bok){
 		this.bok = bok;
     }
-    public int Pole(){
+    public int pole(){
         return bok*bok;
     }
-    public int Obwod(){
+    public int obwod(){
         return bok*4;
     }
     
