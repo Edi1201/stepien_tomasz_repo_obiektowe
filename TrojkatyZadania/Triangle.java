@@ -1,10 +1,8 @@
 class Triangle {
     public Triangle(int wysokosc, int podstawa){
-        System.out.println(wysokosc*podstawa/2);
+        System.out.println("Pole trojkata "+wysokosc*podstawa/2);
     }
     public Triangle(int podstawa){
-        double pierw = Math.pow(podstawa, 1/3);
-        double pole = (Math.pow(podstawa, 2)*pierw)/4;
-        System.out.println(pole);
+        System.out.println("Rownoboczny "+(Math.pow(podstawa, 2)*Math.pow(podstawa, 1/3))/4);
     }
 }
