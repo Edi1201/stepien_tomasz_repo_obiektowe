@@ -1,0 +1,9 @@
+Login:;Email:;Wzrost:;Waga:;Thu Jun 03 20:25:25 CEST 2021
+jTextField1;jTextField1;jTextField1;jTextField1;Fri Jun 11 20:26:02 CEST 2021
+43434343253453;sdasda@gmail.com;jTextField1;jTextField1;null
+3333;sda@gmai.com;444;44;Thu Jun 03 00:00:00 CEST 2021
+3333;sda@i.com;444;44;Thu Jun 03 00:00:00 CEST 2021
+3333;sda@i.com;444;44;Thu Jun 03 00:00:00 CEST 2021
+22;222@22.2;2;2;null
+22;222@22.2;2;2;null
+55;5555@55./55;55;55;null
